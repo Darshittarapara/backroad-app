@@ -27,5 +27,10 @@ export interface ContentTitleProps extends ClassNameType{
 }
 
 export interface ParagraphProps extends ClassNameType {
-text: string
+texts: string[]
+}
+export interface ButtonProps extends ClassNameType {
+    onClick: Function;
+    buttonText: string;
+    type: "reset" | "button" | "submit";
 }

@@ -8,8 +8,9 @@ import Links from 'components/Links/Links'
 import { PATHS } from 'config/paths/paths'
 import { faGithub, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Icons from 'components/Icons/Icons'
+import useNavigator from 'hooks/useNavigator';
 const Navbar = () => {
-
+    const { navigator } = useNavigator()
     const redirectToSocialPage = (link: string) => {
         window.location.href = link
     }
@@ -52,7 +53,7 @@ const Navbar = () => {
     ]
     return (
         <div className="header-link-container">
-            <div className="logo">
+            <div className="logo" onClick={() => navigator(PATHS.home)}>
                 <Image src={Logo} alt={Strings.backRoads} height={constant.header.navbar.logo.height} width={constant.header.navbar.logo.width} />
             </div>
             <div className='navbar'>
@@ -65,13 +66,14 @@ const Navbar = () => {
                         )
                     })}
                 </ul>
-            </div>
-            <div className='social-icon-container'>
-                {icons.map((item) => {
-                    return (
-                        <Icons icon={item.icon} reDirectLink={item?.link} onClick={item.onClick} className={item.className} />
-                    )
-                })}
+
+                <div className='social-icon-container'>
+                    {icons.map((item, index) => {
+                        return (
+                            <Icons key={`${index}`} icon={item.icon} reDirectLink={item?.link} onClick={item.onClick} className={item.className} />
+                        )
+                    })}
+                </div>
             </div>
         </div>
     )

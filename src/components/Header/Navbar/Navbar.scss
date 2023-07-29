@@ -10,7 +10,16 @@
     background: whitesmoke;
     height: 56px;
 
+    .logo {
+        cursor: pointer;
+    }
+
     .navbar {
+
+        display: flex;
+        justify-content: space-between;
+        width: 68%;
+
         .nav-item {
             display: flex;
             list-style-type: none;

@@ -4,5 +4,6 @@ export const Strings = {
     about: "About",
     service: "Service",
     tours: "Tours",
-    continueExploring: "Continue Exploring"
+    continueExploring: "Continue Exploring",
+    exploreTours: 'Explore Tours'
 }

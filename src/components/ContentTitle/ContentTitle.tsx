@@ -13,7 +13,6 @@ const ContentTitle: React.FC<ContentTitleProps> = ({
         hThree,
         hFour,
         hFive,
-        hSix
     } = constant.headings
     const getContentTitle = () => {
         switch (headingNeed) {

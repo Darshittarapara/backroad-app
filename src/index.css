@@ -10,6 +10,12 @@ html {
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-white: #fff;
   --clr-primary-5: hsl(185, 62%, 45%);
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --transparent: transparent;
+  --header-button-hover-border: 3px solid #fff
+
+
 }
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,

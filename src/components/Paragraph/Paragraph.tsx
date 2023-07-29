@@ -2,12 +2,14 @@ import { ParagraphProps } from 'Modal/Modal'
 import React from 'react'
 
 const Paragraph: React.FC<ParagraphProps> = ({
-    text,
+    texts,
     className
 }) => {
     return (
         <>
-            <p className={className} >{text}</p>
+            {texts.map((text, index) => {
+                return <p className={className} key={`${index}`}>{text}</p>
+            })}
         </>
     )
 }
