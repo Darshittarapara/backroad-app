@@ -10,6 +10,8 @@ html {
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-white: #fff;
   --clr-primary-5: hsl(185, 62%, 45%);
+  --clr-primary-1: hsl(184, 91%, 17%);
+  --clr-primary-8: hsl(184, 80%, 74%);
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --transparent: transparent;

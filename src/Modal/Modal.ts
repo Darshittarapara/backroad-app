@@ -33,4 +33,5 @@ export interface ButtonProps extends ClassNameType {
     onClick: Function;
     buttonText: string;
     type: "reset" | "button" | "submit";
+    hasShowAll?: boolean
 }

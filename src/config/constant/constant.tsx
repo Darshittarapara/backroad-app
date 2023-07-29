@@ -15,5 +15,12 @@ export const constant = {
         hFour: "h4",
         hFive: "h5",
         hSix: "h6"
-    }
+    },
+    about: {
+        image: {
+            width: 500,
+            height: 420
+        }
+    },
+    maxTextLength: 5
 }
