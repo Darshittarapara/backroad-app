@@ -5,11 +5,15 @@ const Button: React.FC<ButtonProps> = ({
     className = "button",
     type,
     onClick,
-    buttonText
+    buttonText,
+    hasShowAll
 }) => {
+    const handlerClick = () => {
+        onClick(hasShowAll)
+    }
     return (
         <>
-            <button className={className} type={type} onClick={() => onClick()}>{buttonText}</button>
+            <button className={className} type={type} onClick={handlerClick}>{buttonText}</button>
         </>
     )
 }
