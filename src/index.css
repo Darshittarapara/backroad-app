@@ -11,8 +11,10 @@ html {
   --clr-white: #fff;
   --clr-primary-5: hsl(185, 62%, 45%);
   --clr-primary-1: hsl(184, 91%, 17%);
+  --clr-grey-5: hsl(210, 22%, 49%);
   --clr-primary-8: hsl(184, 80%, 74%);
   --transition: all 0.3s linear;
+  --clr-grey-10: hsl(210, 36%, 96%);
   --spacing: 0.25rem;
   --transparent: transparent;
   --header-button-hover-border: 3px solid #fff

@@ -35,3 +35,9 @@ export interface ButtonProps extends ClassNameType {
     type: "reset" | "button" | "submit";
     hasShowAll?: boolean
 }
+
+export interface ServiceDetailsProps extends ClassNameType {
+    title: string;
+    texts: string[];
+    icon: IconDefinition;
+}

@@ -22,5 +22,5 @@ export const constant = {
             height: 420
         }
     },
-    maxTextLength: 5
+    maxTextLength: 2
 }

@@ -1,0 +1,30 @@
+.details-block {
+    display: flex;
+    justify-content: space-between;
+
+    .icon-container {
+        margin: 0px 10px;
+        background: var(--clr-primary-5);
+        color: var(--clr-primary-1);
+        padding: 0.5rem;
+        display: inline-block;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .details_description {
+
+        h4 {
+            line-height: 1;
+            font-size: 1.1rem;
+            letter-spacing: var(--spacing);
+        }
+
+        p {
+            margin: 6px 0px;
+            margin-right: 7px;
+            margin-bottom: 1.25rem;
+            color: var(--clr-grey-5);
+        }
+    }
+}
