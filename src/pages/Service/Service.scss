@@ -1,10 +1,12 @@
-.about-container {
-    padding: 40px 80px;
+.service-container {
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
+    background: var(--clr-grey-10);
+    padding: 70px;
     align-items: center;
 
-    .about-section {
+    .service-section {
         display: flex;
         justify-content: space-between;
         font-size: 1.7rem;
@@ -23,7 +25,7 @@
 
     }
 
-    .about-details-container {
+    .service-details-container {
         margin-top: 25px;
         display: flex;
         justify-content: space-between;
@@ -37,20 +39,7 @@
         //     background: transparent;
         // }
 
-        .image {
 
-            &::before {
-                content: '';
-                position: absolute;
-                width: 500px;
-                z-index: -1;
-                height: 420px;
-                border: 0.5rem solid var(--clr-primary-5);
-                box-sizing: border-box;
-                top: -1.5rem;
-                left: -1.5rem;
-            }
-        }
 
         .explore-details {
             margin-left: 30px;
@@ -78,8 +67,8 @@
 }
 
 @media screen and (max-width: 786px) {
-    .about-container {
-        .about-details-container {
+    .service-container {
+        .service-details-container {
             flex-direction: column;
         }
     }

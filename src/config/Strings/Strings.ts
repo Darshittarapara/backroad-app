@@ -9,5 +9,12 @@ export const Strings = {
     us: "US",
     hideInfo: 'Hide Info',
     exploreTheDifference: "Explore The Difference",
-    readMore: "Read More"
+    readMore: "Read More",
+    Our: "OUR",
+    services: "Services",
+    savingMoney: 'Saving Money',
+    endlessHiking: 'Endless Hiking',
+    amazingComfort: 'Amazing Comfort'
+
+
 }
