@@ -39,7 +39,7 @@ const Service = () => {
             </section>
             <div className='service-details-container'>
                 {details.map((item, index) => {
-                    return <Details title={item.title} icon={item.icon} texts={item.text} />
+                    return <Details key={`${index}`} title={item.title} icon={item.icon} texts={item.text} />
                 })}
             </div>
         </div>
